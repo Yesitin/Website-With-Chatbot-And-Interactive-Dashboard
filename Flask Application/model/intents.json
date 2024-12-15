@@ -1,0 +1,109 @@
+{
+  "intents": [
+    {
+      "tag": "Greet",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Good morning",
+        "Good afternoon",
+        "Hey"
+      ],
+      "responses": [
+        "Hello! How can I assist you with your transportation needs today?",
+        "Hi there! What can I do for you?",
+        "Welcome to FastTrans! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "Company_Info",
+      "patterns": [
+        "Tell me about your company",
+        "What does your company do?",
+        "Can you provide some information about FastTrans?",
+        "What services do you offer?",
+        "What is FastTrans?"
+      ],
+      "responses": [
+        "FastTrans specializes in efficient and reliable truck transport services across the country. We ensure your goods reach their destination safely and on time. How can we assist you?",
+        "At FastTrans, we offer comprehensive truck forwarding services tailored to meet your transportation needs. What can we help you with today?",
+        "FastTrans is your trusted partner for all things transportation, offering a wide range of truck forwarding services. How can we assist you?"
+      ]
+    },
+    {
+      "tag": "Service_Inquiry",
+      "patterns": [
+        "What transport services do you provide?",
+        "Can you tell me about your truck forwarding services?",
+        "Do you offer long-haul transport?",
+        "What kind of trucking services do you offer?",
+        "Tell me more about your transportation services"
+      ],
+      "responses": [
+        "We provide a range of services including long-haul transport, regional deliveries, and specialized freight forwarding. What specific service are you interested in?",
+        "Our services include full truckload (FTL) and less-than-truckload (LTL) shipping, as well as dedicated transport solutions. How can we assist you today?",
+        "FastTrans offers nationwide truck forwarding services, from standard freight to specialized transport. What can we help you with?"
+      ]
+    },
+    {
+      "tag": "Quote_Request",
+      "patterns": [
+        "How can I get a quote?",
+        "I need a quote for a transport",
+        "Can you provide a shipping estimate?",
+        "How much will it cost to transport my goods?",
+        "I want to request a quote"
+      ],
+      "responses": [
+        "You can request a quote by providing details about your shipment, including pickup and delivery locations, and the type of goods being transported. Would you like to proceed?",
+        "To get an accurate quote, I'll need some information about your transport needs. Are you ready to provide the details?",
+        "We'd be happy to provide a quote! Just let me know the specifics of your shipment, and I'll get started on it."
+      ]
+    },
+    {
+      "tag": "Booking_Inquiry",
+      "patterns": [
+        "How can I book a transport?",
+        "I want to schedule a truck",
+        "Can I book a transport service?",
+        "How do I arrange a pickup?",
+        "I need to book a shipment"
+      ],
+      "responses": [
+        "You can easily book a transport through our website or by contacting our customer service team. Would you like me to guide you through the process?",
+        "To book a transport, just provide the details of your shipment, and we'll handle the rest. Would you like to start the booking now?",
+        "Booking with FastTrans is simple. Let me know your shipment details, and I'll assist you with the booking."
+      ]
+    },
+    {
+      "tag": "Tracking_Inquiry",
+      "patterns": [
+        "How can I track my shipment?",
+        "I want to track my goods",
+        "Can you tell me where my shipment is?",
+        "What is the status of my transport?",
+        "How do I check the status of my delivery?"
+      ],
+      "responses": [
+        "You can track your shipment by entering your tracking number on our website. Would you like me to help you find it?",
+        "Tracking your goods is easy! Just provide your tracking number, and I'll give you the latest update.",
+        "To track your shipment, simply enter the tracking ID on our tracking page, or I can assist you if you provide the number."
+      ]
+    },
+    {
+      "tag": "Goodbye",
+      "patterns": [
+        "Goodbye",
+        "Thank you, bye",
+        "See you later",
+        "Thanks, bye",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! If you need any further assistance, feel free to reach out. Safe travels!",
+        "Thank you for choosing FastTrans! Have a great day!",
+        "Take care! We're here if you have any more questions."
+      ]
+    }
+  ]
+}
